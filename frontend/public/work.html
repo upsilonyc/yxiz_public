@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles.css" type="text/css">
+    <title>Work | YXiZ Lab</title>
 </head>
 <body>
-$END$
+<div class="nav-wrapper">
+    <div class="logo">
+        <a href="index.html" class="link">
+            <img src="../src/components/logo/logo.png" alt="logo" class = "logo-image">
+            <!--how to make the logo-text appear when scrolling down, and disappear when scrolling up-->
+            <img src="../src/components/logo/logo-text.png" alt="logo text" class="logo-text">
+        </a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="about.html" class="link">About</a></li>
+            <li><a href="work.html" class="link">Work</a></li>
+            <li><a href="people.html" class="link">People</a></li>
+            <li><a href="download.html" class="link">Get App</a></li>
+        </ul>
+    </nav>
+</div>
+
+    <main id="work-main">
+        <div class="work-wrapper">
+
+            <div id="product">
+                <img src="../src/components/work/complete-product-workflow.png" alt="complete product workflow" class="work-image">
+                <div class="text-work">
+                    <h3>Complete product workflow</h3>
+                    <p>At the heart of YXiZ is our Y-Core system — a computer vision engine that turns simple 3D scan videos into powerful insights about your posture and spinal health. Once a user records and uploads a scan, the system converts the video into detailed 3D models using advanced reconstruction algorithms. These models are refined into smooth, lifelike digital twins, allowing our AI to precisely map spinal curvature and key body points. From there, Y-Core analyzes alignment and movement patterns, classifies spinal curvature, and generates easy-to-understand visual and written reports. Every scan adds to your personal progress database, helping you and your coach track changes and improvements over time.</p>
+                </div>
+            </div>
+
+            <div id="computer">
+                <img src="../src/components/work/computer-vision-pipeline.png" alt="computer vision pipeline" class="work-image">
+                <div class="text-work">
+                    <h3>Computer vision pipeline</h3>
+                    <p>The YXiZ system connects every part of your posture journey — from scan to recovery — in one seamless loop. It starts when users upload a 3D scan, which our Y-Core engine analyzes to visualize spinal curvature and posture details. The results are turned into interactive 3D models, clear written reports, and stored securely in each user’s personal database. Over time, YXiZ tracks changes and generates long-term progress reports to help users see real improvement. On the other side, certified rehabilitation coaches upload personalized tutorials and exercise plans through their own interface. These programs are matched to users’ needs and delivered directly through the platform, creating a continuous feedback cycle between assessment, recommendation, and recovery.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms of Use</a> |
+            <a href="disclaimer.html">Disclaimer</a>
+        </div>
+        <p>&#169 2025 YXiZ Lab</p>
+    </footer>
 </body>
 </html>

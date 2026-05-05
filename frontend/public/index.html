@@ -1,10 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles.css" type="text/css">
+    <title>YXiZ Lab</title>
 </head>
+
 <body>
-$END$
+    <div class="nav-wrapper">
+        <div class="logo">
+            <a href="index.html" class="link">
+                <img src="../src/components/logo/logo.png" alt="logo" class = "logo-image">
+                <!--how to make the logo-text appear when scrolling down, and disappear when scrolling up-->
+                <img src="../src/components/logo/logo-text.png" alt="logo text" class="logo-text">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="about.html" class="link">About</a></li>
+                <li><a href="work.html" class="link">Work</a></li>
+                <li><a href="people.html" class="link">People</a></li>
+                <li><a href="download.html" class="link">Get App</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header class="site-header">
+
+        <h1>YXiZ Lab</h1>
+        <p class="subtitle">Young eXistential Insights to Zenith</p>
+        <p>by upsilonyc, Yujing, 2025</p>
+
+    </header>
+
+    <main>
+        <section id="about">
+            <h3 class="highlight">About</h3>
+            <p>The YXiZ Lab works to develop interpretable, home-based computer vision systems that clarify and visualize scoliosis diagnosis—making detection & tracking faster, clearer, and more accessible under rapid life. </p>
+        </section>
+
+        <section id="work">
+            <h3 class="highlight">Work</h3>
+            <div class="work-grid">
+                <div class="card">
+                    <h4>3D Scoliosis Model</h4>
+                    <p>Interactive WebGL rendering of spinal curvature patterns.</p>
+                </div>
+                <div class="card">
+                    <h4>Posture Detection Pipeline</h4>
+                    <p>Computer-vision system for self-assessment via mobile camera.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="people">
+            <h3 class="highlight">People</h3>
+            <div class="people-grid">
+                <div class="person">
+<!--                    <img src="assets/people/yujing.png" alt="Yvette">-->
+                    <h4>Yvette Chen</h4>
+                    <p>Founder · Researcher in Cognitive Science & Computer Science</p>
+                </div>
+                <div class="person">
+<!--                    <img src="assets/people/yujing.png" alt="Yujing">-->
+                    <h4>Yujing Wang</h4>
+                    <p>Cofounder · Researcher in Anthropology & Neurobiology</p>
+                </div>
+                <div class="person">
+                    <h4>Collaborators</h4>
+                    <p>Rehabilitation trainers, labs, and clinics.</p>
+                </div>
+            </div>
+            <div>
+                <a href="#contact" class="link">Contact Us</a>
+            </div>
+        </section>
+
+        <section id="download">
+            <h3 class="highlight">Get APP</h3>
+            <h4>Visualize and track your spine condition at this minute</h4>
+            <button class="get-app">Get Started</button>
+        </section>
+
+        <section id="contact">
+            <h3 class="highlight">Contact Us</h3>
+
+            <p>Interested in research collaboration, design contribution, or pilot testing?</p>
+            <p>
+                contact upsilonyc at <a href="mailto:yevette_chen@berkeley.edu" class="link">yevette_chen@berkeley.edu</a>
+                <br>
+                contact Yujing Wang at <a href="mailto:eugen@bu.edu" class="link">eugen@bu.edu</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms of Use</a> |
+            <a href="disclaimer.html">Disclaimer</a>
+        </div>
+        <p>&#169 2025 YXiZ Lab</p>
+    </footer>
 </body>
 </html>
